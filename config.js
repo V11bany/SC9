@@ -12,10 +12,10 @@ global.APIKeys = {
 }
 
 // NAMBAH BOLEH HAPUS JANGAN -_-
-global.owner = ['6281511480762']
-global.premium = ['621511480762']
-global.packname = 'AzzBot√'
-global.author = 'AzzBot-MD'
+global.owner = ['6283183321692']
+global.premium = ['6283183321692']
+global.packname = 'ʙᴏᴛ ᴇʟᴀɪɴᴀ'
+global.author = 'ᴇʟᴀɪɴᴀ ofl'
 global.sessionName = 'Xavior'
 global.prefa = ['','!','.','🐦','🐤','🗿']
 global.sp = '⭔'
