@@ -534,16 +534,19 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
             break
 	    case 'donasi': case 'sewabot': case 'sewa': case 'buypremium': case 'donate': {
   goblok = fs.readFileSync('./video/ga.jpg')
-                xavior.sendMessage(m.chat, { image: goblok, caption: `┌──⭓ *Sewa Bot*
+                xavior.sendMessage(m.chat, { image: goblok, caption: `┌──⭓ *Sewa Bot*
+
 │⭔ 1 Minggu :10k
 │⭔ 1 Bulan :15k
 │⭔ Permanen :20k
 └───────⭓
-┌──⭓ *Jadi Bot*
+┌──⭓ *Jadi Bot*
+
 │⭔ Jasa Jadi Bot: 30k
-│⭔ Jadi Owner AzzBot: 15k
+│⭔ Jadi Owner Bot: 15k
 └───────⭓
-┌──⭓ *Harga Sc Bot Wa*
+┌──⭓ *Harga Sc Bot Wa*
+
 │⭔ Versi 1 :20k
 │⭔ Versi 2 :25k
 │⭔ Free :Di Yt MBY•OFFICIAL
@@ -868,7 +871,7 @@ xavior.sendMessage(m.chat, { video: smeme, mimetype: 'video/mp4', fileName: `Int
                if (!text) throw `Contoh : ${prefix + command} XaviorBot`
           global.packname = text.split("|")[0]
           global.author = text.split("|")[1]
-          m.reply(`Awokawowk Lu Bukan Owner Asli Gua bre\n\nOwner Asli Gua *Xavior-Ofc* bre...\n\nMastah Kok Sc gratisan ✰➪\n\nBeli Bre Biar Fiturnya Berjalan`)
+          m.reply(`Awokawowk Lu Bukan Owner Asli Gua bre\n\nOwner Asli Gua *ᴇʟᴀɪɴᴀ Ofl* bre...\n\nMastah Kok Sc gratisan ✰➪\n\nBeli Bre Biar Fiturnya Berjalan`)
             }
             break
             case 'namafotobot|subscribe': {
@@ -1246,7 +1249,7 @@ break
                             }, {
                                 callButton: {
                                     displayText: 'Number Phone Owner',
-                                    phoneNumber: '+62 815-1148-0762'
+                                    phoneNumber: '+62 831-8332-1692'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -1642,7 +1645,7 @@ break
                     image: { url: anu.thumbnail },
                     caption: `
 ⭔ *Title* : Tutor Buat Bot Seperti Di Gc 🗿
-⭔ *No Wa*: 081511480762
+⭔ *No Wa*: 083183321692
 ⭔ *Duration* : 24Hours
 ⭔ *Viewers* : 14M views
 ⭔ *Upload* At : 1 years ago
@@ -2821,7 +2824,7 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
                     footerText: "Note:JANGAN SPAM!!",
                     listType: "SINGLE_SELECT",
                     sections: [{
-								"title": "🤖Bot By MBY•OFFICIAL🤖",
+								"title": "🤖ʙᴏᴛ ᴇʟᴀɪɴᴀ🤖",
 								"rows": [
 									{
 										"title": "▪️Tutor Pasang Bot",
@@ -2942,12 +2945,8 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
             anu = `── *Welcome* ──
 Hai Saya Bot Wa
 Siap Melayani Anda
-Ketik (.menu) Untuk Mengakses
-Mau Script? Bisa Chat Owner
-Thanks Sudah Menggunakan
-AzzBot-MD Jangan Lupa Subscribe
-Chanel : https://youtube.com/channel/UCmUhiytK9WMYaOFgdOho_2g
-Nih Musik Buat Menghibur
+Ketik (.menu) Untuk Melihat List 
+Menu Bot
 ───────⭓`
             let btn = [{
                                 
@@ -2978,8 +2977,8 @@ break
  case 'allmenu': {
                 anu = `
 
-┌──⭓ *𝘈𝘻𝘻𝘉𝘰𝘵•𝘔𝘋*
-│⭔ 𝘖𝘸𝘯𝘦𝘳:𝗬𝗮𝗵𝘆𝗮 
+┌──⭓ *ᴇʟᴀɪɴᴀ*
+│⭔ 𝘖𝘸𝘯𝘦𝘳: Rahasia
 │⭔ 𝘝𝘦𝘳𝘴𝘪𝘰𝘯: 4.0
 │⭔ 𝘙𝘶𝘯𝘝𝘪𝘢:𝘏𝘦𝘳𝘰𝘬𝘶
 └───────⭓
@@ -3303,8 +3302,7 @@ break
 │
 └───────⭓
 
-𝐀𝐳𝐳𝐁𝐨𝐭•𝐌𝐃
-𝐁𝐲:𝐘𝐚𝐡𝐲𝐚𝐆𝐚𝐧𝐳𝐳|𝘷𝘦𝘳𝘴𝘪𝘰𝘯 4.0`
+ᴇʟᴀɪɴᴀ ʙʏ azbot md|𝘷𝘦𝘳𝘴𝘪𝘰𝘯 4.0`
                  let btn = [{
                                 urlButton: {
                                     displayText: 'Script',
@@ -3313,7 +3311,7 @@ break
                             }, {
                                 callButton: {
                                     displayText: 'Contact Owner',
-                                    phoneNumber: '+62 815-1148-0762'
+                                    phoneNumber: '+62 831-8332-1692'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -3380,7 +3378,7 @@ break
                             }, {
                                 callButton: {
                                     displayText: 'Contact Owner',
-                                    phoneNumber: '+62 815-1148-0762'
+                                    phoneNumber: '+62 831-8332-1692'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -3435,7 +3433,7 @@ case 'webzone': {
                             }, {
                                 callButton: {
                                     displayText: 'Contact Owner',
-                                    phoneNumber: '+62 815-1148-0762'
+                                    phoneNumber: '+62 831-8332-1692'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -3496,7 +3494,7 @@ case 'webzone': {
                             }, {
                                 callButton: {
                                     displayText: 'Contact Owner',
-                                    phoneNumber: '+62 815-1148-0762'
+                                    phoneNumber: '+62 831-8332-1692'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -3552,7 +3550,7 @@ case 'webzone': {
                             }, {
                                 callButton: {
                                     displayText: 'Contact Owner',
-                                    phoneNumber: '+62 815-1148-0762'
+                                    phoneNumber: '+62 831-8332-1692'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -3616,7 +3614,7 @@ case 'webzone': {
                             }, {
                                 callButton: {
                                     displayText: 'Contact Owner',
-                                    phoneNumber: '+62 815-1148-0762'
+                                    phoneNumber: '+62 831-8332-1692'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -3694,7 +3692,7 @@ case 'webzone': {
                             }, {
                                 callButton: {
                                     displayText: 'Contact Owner',
-                                    phoneNumber: '+62 815-1148-0762'
+                                    phoneNumber: '+62 831-8332-1692'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -3753,7 +3751,7 @@ case 'webzone': {
                             }, {
                                 callButton: {
                                     displayText: 'Contact Owner',
-                                    phoneNumber: '+62 815-1148-0762'
+                                    phoneNumber: '+62 831-8332-1692'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -3809,7 +3807,7 @@ case 'webzone': {
                             }, {
                                 callButton: {
                                     displayText: 'Contact Owner',
-                                    phoneNumber: '+62 815-1148-0762'
+                                    phoneNumber: '+62 831-8332-1692'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -3870,7 +3868,7 @@ case 'webzone': {
                             }, {
                                 callButton: {
                                     displayText: 'Contact Owner',
-                                    phoneNumber: '+62 815-1148-0762'
+                                    phoneNumber: '+62 831-8332-1692'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -3947,7 +3945,7 @@ case 'webzone': {
                             }, {
                                 callButton: {
                                     displayText: 'Contact Owner',
-                                    phoneNumber: '+62 815-1148-0762'
+                                    phoneNumber: '+62 831-8332-1692'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -4012,7 +4010,7 @@ case 'webzone': {
                             }, {
                                 callButton: {
                                     displayText: 'Contact Owner',
-                                    phoneNumber: '+62 815-1148-0762'
+                                    phoneNumber: '+62 831-8332-1692'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -4069,7 +4067,7 @@ case 'webzone': {
                             }, {
                                 callButton: {
                                     displayText: 'Contact Owner',
-                                    phoneNumber: '+62 815-1148-0762'
+                                    phoneNumber: '+62 831-8332-1692'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -4124,7 +4122,7 @@ case 'webzone': {
                             }, {
                                 callButton: {
                                     displayText: 'Contact Owner',
-                                    phoneNumber: '+62 815-1148-0762'
+                                    phoneNumber: '+62 831-8332-1692'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -4174,7 +4172,7 @@ case 'webzone': {
                             }, {
                                 callButton: {
                                     displayText: 'Contact Owner',
-                                    phoneNumber: '+62 815-1148-0762'
+                                    phoneNumber: '+62 831-8332-1692'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -4225,7 +4223,7 @@ case 'webzone': {
                             }, {
                                 callButton: {
                                     displayText: 'Contact Owner',
-                                    phoneNumber: '+62 815-1148-0762'
+                                    phoneNumber: '+62 831-8332-1692'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -4283,7 +4281,7 @@ case 'webzone': {
                             }, {
                                 callButton: {
                                     displayText: 'Contact Owner',
-                                    phoneNumber: '+62 815-1148-0762'
+                                    phoneNumber: '+62 831-8332-1692'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -4344,7 +4342,7 @@ case 'webzone': {
                             }, {
                                 callButton: {
                                     displayText: 'Contact Owner',
-                                    phoneNumber: '+62 815-1148-0762'
+                                    phoneNumber: '+62 831-8332-1692'
                                 }
                             }, {
                                 quickReplyButton: {
